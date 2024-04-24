@@ -461,8 +461,7 @@
 
                     <div class="text">Message me</div>
 
-                    <form action="https://formspree.io/f/xayraaro" method="POST">
-
+                    <form action="https://formspree.io/f/xayraaro" method="POST" >
                         <div class="fields">
 
                             <div class="field name">
@@ -473,15 +472,21 @@
 
                             <div class="field email">
 
-                                <input type="email" placeholder="Email" required>
+                                <label>
+    Your email:
+    <input type="email" name="email">
+                                 </label>
 
                             </div>
 
                             <div class="field textarea">
 
-                             <textarea placeholder="Send message" required>
+                             <label>
+    Your message:
+    <textarea name="message"></textarea>
+                             </label>
 
-                             </textarea>
+     
                                
 
                             </div>
