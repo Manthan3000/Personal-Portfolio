@@ -514,6 +514,17 @@ section{
 
 }
 
+.name-manthan {
+font-size: 25px;
+font-weight: 700;
+color: rgb(33, 37, 41);
+}
+
+.text-my {
+    font-size: 10px;
+font-weight: 300;
+color: rgb(33, 37, 41);
+}
 /*skills section starts*/
 
 .skills .title::after{
